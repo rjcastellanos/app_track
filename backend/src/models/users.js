@@ -6,8 +6,10 @@ const schema = new Schema({
     email: "string",
     phone: "string",
     password: "string",
-    actual_location_x: "string",
-    actual_location_y: "string"    
+    ubicacion: {
+        latitud: "string",
+        longitud: "string"
+    }    
 });
 
 const user = model('user_prueba', schema);

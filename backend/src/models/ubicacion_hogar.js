@@ -4,7 +4,6 @@ const schema = new Schema({
     user_id: "string",
     coordenada_x: "string",
     coordenada_y: "string",
-    coordenada_z: "string",
     currently: "boolean"
 });
 
